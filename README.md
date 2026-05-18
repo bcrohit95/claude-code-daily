@@ -18,6 +18,7 @@ A self-running learning agent that teaches me one Claude Code skill every day at
 ## Lessons
 
 <!-- LESSON_INDEX_START -->
+- [2026-05-18 — Custom Slash Commands](lessons/2026-05-18-custom-slash-commands.md)
 - [2026-05-18 — Slash Commands](lessons/2026-05-18-slash-commands.md)
 <!-- LESSON_INDEX_END -->
 
