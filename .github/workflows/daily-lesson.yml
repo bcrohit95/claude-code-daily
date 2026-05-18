@@ -1,0 +1,64 @@
+name: Daily Claude Code Lesson
+
+on:
+  schedule:
+    # 13:00 UTC = 8am CDT (Mar–Nov) / 7am CST (Nov–Mar).
+    # Adjust to "14:00" if you want a strict 8am year-round in CST.
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  lesson:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "claude-code-daily-bot"
+          git config user.email "claude-code-daily-bot@users.noreply.github.com"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate today's lesson with Claude Code
+        id: lesson
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt_file: prompts/lesson_prompt.md
+          allowed_tools: "Read,Write,Edit,Bash"
+
+      - name: Extract lesson path from Claude output
+        id: extract
+        run: |
+          # Claude prints LESSON_PATH=... as the last line of its output.
+          # We pull the most recently modified file in lessons/ as a robust fallback.
+          set -e
+          LATEST=$(ls -t lessons/*.md 2>/dev/null | head -n 1 || true)
+          if [ -z "$LATEST" ]; then
+            echo "ERROR: no lesson file found in lessons/"
+            exit 1
+          fi
+          echo "lesson_path=$LATEST" >> "$GITHUB_OUTPUT"
+          echo "Found lesson: $LATEST"
+
+      - name: Push commits made by Claude
+        run: |
+          # The action commits locally; we just push.
+          git push origin HEAD:main || echo "Nothing to push"
+
+      - name: Send lesson email
+        env:
+          GMAIL_FROM: ${{ secrets.GMAIL_FROM }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GMAIL_TO: ${{ secrets.GMAIL_TO }}
+          LESSON_PATH: ${{ steps.extract.outputs.lesson_path }}
+        run: python scripts/send_email.py

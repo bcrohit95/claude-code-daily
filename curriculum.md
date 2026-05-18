@@ -1,0 +1,43 @@
+# Claude Code Curriculum
+
+Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and marks it `[DONE]` after writing the lesson. Reorder freely.
+
+- [TODO] Slash commands — what they are and the built-in ones every user should know
+- [TODO] Custom slash commands — creating your own `/my-command` in `.claude/commands/`
+- [TODO] CLAUDE.md files — project memory that auto-loads in every session
+- [TODO] Plan mode — proposing a plan before touching code
+- [TODO] Permission modes — auto-accept vs. ask, and when to use each
+- [TODO] settings.json — the central config file and the most useful keys
+- [TODO] Hooks — running shell commands before/after tool calls
+- [TODO] PreToolUse hook — blocking dangerous commands before they run
+- [TODO] PostToolUse hook — auto-formatting or logging after edits
+- [TODO] Stop hook — running checks (tests, lint) when Claude finishes
+- [TODO] Subagents — delegating focused tasks to specialized helpers
+- [TODO] Built-in subagents (Explore, Plan, general-purpose) and when to use each
+- [TODO] Custom subagents — defining your own in `.claude/agents/`
+- [TODO] Skills — packaged capabilities Claude can load on demand
+- [TODO] Creating a custom skill in `.claude/skills/`
+- [TODO] MCP (Model Context Protocol) — what it is in plain English
+- [TODO] Connecting an MCP server (filesystem, GitHub, Slack examples)
+- [TODO] Memory tool — Claude's own scratchpad across sessions
+- [TODO] Tasks — the built-in todo list for tracking multi-step work
+- [TODO] The Read, Edit, and Write tools — when each is preferred
+- [TODO] The Bash tool — running commands and the gotchas (timeouts, background jobs)
+- [TODO] Parallel tool calls — speeding things up by batching independent calls
+- [TODO] Image input — pasting screenshots and asking Claude to read them
+- [TODO] Web search and WebFetch — getting current info into a session
+- [TODO] Headless mode — running Claude Code non-interactively in scripts/CI
+- [TODO] GitHub Actions integration — the official `claude-code-action`
+- [TODO] IDE extensions — VS Code and JetBrains integration basics
+- [TODO] Keyboard shortcuts worth memorizing
+- [TODO] Status line — customizing what shows above the prompt
+- [TODO] Output styles — switching between concise and detailed responses
+- [TODO] /init — generating a CLAUDE.md for an existing project
+- [TODO] /review — using Claude to review a pull request
+- [TODO] Model selection — when to use Opus vs Sonnet vs Haiku
+- [TODO] Prompt caching — what it is and how it saves money
+- [TODO] Cost and rate limits — practical tips to stay under
+- [TODO] Worktrees — running Claude on an isolated copy of the repo
+- [TODO] Git workflows with Claude — branches, commits, PRs without leaving the CLI
+- [TODO] Debugging Claude's mistakes — re-prompting strategies
+- [TODO] The Claude Agent SDK — building your own agent on top of Claude
