@@ -11,6 +11,10 @@ A self-running learning agent that teaches me one Claude Code skill every day at
 5. Marks the topic `[DONE]` in the curriculum and updates this README index — second commit
 6. Emails the lesson to me
 
+## Weekly summaries
+
+- [Week of 2026-05-18](summaries/2026-05-18-week-of.md)
+
 ## Lessons
 
 <!-- LESSON_INDEX_START -->
