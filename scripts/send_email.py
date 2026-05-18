@@ -68,8 +68,10 @@ def main() -> int:
             subject = line[2:].strip()
             break
 
+    prefix = os.environ.get("EMAIL_SUBJECT_PREFIX", "Claude Code Daily")
+
     msg = EmailMessage()
-    msg["Subject"] = f"Claude Code Daily — {subject}"
+    msg["Subject"] = f"{prefix} — {subject}"
     msg["From"] = sender
     msg["To"] = recipient
     msg.set_content(body_md)

@@ -1,0 +1,69 @@
+name: Weekly Claude Code Summary
+
+on:
+  schedule:
+    # 14:00 UTC every Sunday = 9am CDT / 8am CST Sunday morning.
+    - cron: "0 14 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  summary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "claude-code-daily-bot"
+          git config user.email "claude-code-daily-bot@users.noreply.github.com"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Generate this week's summary
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          cat prompts/weekly_summary_prompt.md | claude \
+            --print \
+            --permission-mode bypassPermissions \
+            --allowed-tools "Read,Write,Edit,Bash"
+
+      - name: Extract summary path
+        id: extract
+        run: |
+          set -e
+          LATEST=$(ls -t summaries/*.md 2>/dev/null | head -n 1 || true)
+          if [ -z "$LATEST" ]; then
+            echo "ERROR: no summary file found in summaries/"
+            exit 1
+          fi
+          echo "summary_path=$LATEST" >> "$GITHUB_OUTPUT"
+          echo "Found summary: $LATEST"
+
+      - name: Push commits made by Claude
+        run: git push origin HEAD:main || echo "Nothing to push"
+
+      - name: Send summary email
+        env:
+          GMAIL_FROM: ${{ secrets.GMAIL_FROM }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GMAIL_TO: ${{ secrets.GMAIL_TO }}
+          LESSON_PATH: ${{ steps.extract.outputs.summary_path }}
+          EMAIL_SUBJECT_PREFIX: "Claude Code Weekly"
+        run: python scripts/send_email.py
