@@ -2,8 +2,9 @@ name: Weekly Claude Code Summary
 
 on:
   schedule:
-    # 14:00 UTC every Sunday = 9am CDT / 8am CST Sunday morning.
-    - cron: "0 14 * * 0"
+    # 14:00 UTC every Friday = 9am CDT / 8am CST.
+    # One hour after the daily lesson so they don't race on the same push.
+    - cron: "0 14 * * 5"
   workflow_dispatch:
 
 permissions:
