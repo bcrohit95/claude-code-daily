@@ -5,7 +5,7 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Slash commands — what they are and the built-in ones every user should know
 - [DONE] Custom slash commands — creating your own `/my-command` in `.claude/commands/`
 - [DONE] CLAUDE.md files — project memory that auto-loads in every session
-- [TODO] Plan mode — proposing a plan before touching code
+- [DONE] Plan mode — proposing a plan before touching code
 - [TODO] Permission modes — auto-accept vs. ask, and when to use each
 - [TODO] settings.json — the central config file and the most useful keys
 - [TODO] Hooks — running shell commands before/after tool calls
