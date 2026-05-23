@@ -8,7 +8,7 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Plan mode — proposing a plan before touching code
 - [DONE] Permission modes — auto-accept vs. ask, and when to use each
 - [DONE] settings.json — the central config file and the most useful keys
-- [TODO] Hooks — running shell commands before/after tool calls
+- [DONE] Hooks — running shell commands before/after tool calls
 - [TODO] PreToolUse hook — blocking dangerous commands before they run
 - [TODO] PostToolUse hook — auto-formatting or logging after edits
 - [TODO] Stop hook — running checks (tests, lint) when Claude finishes

@@ -19,6 +19,7 @@ A self-running learning agent that teaches me one Claude Code skill every day at
 ## Lessons
 
 <!-- LESSON_INDEX_START -->
+- [2026-05-23 — Hooks](lessons/2026-05-23-hooks.md)
 - [2026-05-22 — settings.json](lessons/2026-05-22-settings-json.md)
 - [2026-05-21 — Permission Modes](lessons/2026-05-21-permission-modes.md)
 - [2026-05-20 — Plan Mode](lessons/2026-05-20-plan-mode.md)
