@@ -9,7 +9,7 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Permission modes — auto-accept vs. ask, and when to use each
 - [DONE] settings.json — the central config file and the most useful keys
 - [DONE] Hooks — running shell commands before/after tool calls
-- [TODO] PreToolUse hook — blocking dangerous commands before they run
+- [DONE] PreToolUse hook — blocking dangerous commands before they run
 - [TODO] PostToolUse hook — auto-formatting or logging after edits
 - [TODO] Stop hook — running checks (tests, lint) when Claude finishes
 - [TODO] Subagents — delegating focused tasks to specialized helpers
