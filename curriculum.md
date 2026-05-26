@@ -11,7 +11,7 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Hooks — running shell commands before/after tool calls
 - [DONE] PreToolUse hook — blocking dangerous commands before they run
 - [DONE] PostToolUse hook — auto-formatting or logging after edits
-- [TODO] Stop hook — running checks (tests, lint) when Claude finishes
+- [DONE] Stop hook — running checks (tests, lint) when Claude finishes
 - [TODO] Subagents — delegating focused tasks to specialized helpers
 - [TODO] Built-in subagents (Explore, Plan, general-purpose) and when to use each
 - [TODO] Custom subagents — defining your own in `.claude/agents/`

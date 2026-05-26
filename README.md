@@ -19,6 +19,7 @@ A self-running learning agent that teaches me one Claude Code skill every day at
 ## Lessons
 
 <!-- LESSON_INDEX_START -->
+- [2026-05-26 — Stop Hook](lessons/2026-05-26-stop-hook.md)
 - [2026-05-25 — PostToolUse Hook](lessons/2026-05-25-posttooluse-hook.md)
 - [2026-05-24 — PreToolUse Hook](lessons/2026-05-24-pretooluse-hook.md)
 - [2026-05-23 — Hooks](lessons/2026-05-23-hooks.md)
