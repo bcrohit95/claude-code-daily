@@ -14,7 +14,7 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Stop hook — running checks (tests, lint) when Claude finishes
 - [DONE] Subagents — delegating focused tasks to specialized helpers
 - [DONE] Built-in subagents (Explore, Plan, general-purpose) and when to use each
-- [TODO] Custom subagents — defining your own in `.claude/agents/`
+- [DONE] Custom subagents — defining your own in `.claude/agents/`
 - [TODO] Skills — packaged capabilities Claude can load on demand
 - [TODO] Creating a custom skill in `.claude/skills/`
 - [TODO] MCP (Model Context Protocol) — what it is in plain English
