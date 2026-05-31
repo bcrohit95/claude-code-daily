@@ -16,7 +16,7 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Built-in subagents (Explore, Plan, general-purpose) and when to use each
 - [DONE] Custom subagents — defining your own in `.claude/agents/`
 - [DONE] Skills — packaged capabilities Claude can load on demand
-- [TODO] Creating a custom skill in `.claude/skills/`
+- [DONE] Creating a custom skill in `.claude/skills/`
 - [TODO] MCP (Model Context Protocol) — what it is in plain English
 - [TODO] Connecting an MCP server (filesystem, GitHub, Slack examples)
 - [TODO] Memory tool — Claude's own scratchpad across sessions
