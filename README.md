@@ -20,6 +20,7 @@ A self-running learning agent that teaches me one Claude Code skill every day at
 ## Lessons
 
 <!-- LESSON_INDEX_START -->
+- [2026-06-01 — MCP (Model Context Protocol)](lessons/2026-06-01-mcp.md)
 - [2026-05-31 — Creating a Custom Skill](lessons/2026-05-31-custom-skills.md)
 - [2026-05-30 — Skills](lessons/2026-05-30-skills.md)
 - [2026-05-29 — Custom Subagents](lessons/2026-05-29-custom-subagents.md)
