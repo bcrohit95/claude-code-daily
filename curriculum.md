@@ -18,7 +18,7 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Skills — packaged capabilities Claude can load on demand
 - [DONE] Creating a custom skill in `.claude/skills/`
 - [DONE] MCP (Model Context Protocol) — what it is in plain English
-- [TODO] Connecting an MCP server (filesystem, GitHub, Slack examples)
+- [DONE] Connecting an MCP server (filesystem, GitHub, Slack examples)
 - [TODO] Memory tool — Claude's own scratchpad across sessions
 - [TODO] Tasks — the built-in todo list for tracking multi-step work
 - [TODO] The Read, Edit, and Write tools — when each is preferred
