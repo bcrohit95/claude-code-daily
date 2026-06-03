@@ -20,6 +20,7 @@ A self-running learning agent that teaches me one Claude Code skill every day at
 ## Lessons
 
 <!-- LESSON_INDEX_START -->
+- [2026-06-03 — Memory Tool](lessons/2026-06-03-memory-tool.md)
 - [2026-06-02 — Connecting an MCP Server](lessons/2026-06-02-connecting-mcp-server.md)
 - [2026-06-01 — MCP (Model Context Protocol)](lessons/2026-06-01-mcp.md)
 - [2026-05-31 — Creating a Custom Skill](lessons/2026-05-31-custom-skills.md)
