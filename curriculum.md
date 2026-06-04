@@ -20,7 +20,7 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] MCP (Model Context Protocol) — what it is in plain English
 - [DONE] Connecting an MCP server (filesystem, GitHub, Slack examples)
 - [DONE] Memory tool — Claude's own scratchpad across sessions
-- [TODO] Tasks — the built-in todo list for tracking multi-step work
+- [DONE] Tasks — the built-in todo list for tracking multi-step work
 - [TODO] The Read, Edit, and Write tools — when each is preferred
 - [TODO] The Bash tool — running commands and the gotchas (timeouts, background jobs)
 - [TODO] Parallel tool calls — speeding things up by batching independent calls
