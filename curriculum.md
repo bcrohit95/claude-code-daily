@@ -22,7 +22,7 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Memory tool — Claude's own scratchpad across sessions
 - [DONE] Tasks — the built-in todo list for tracking multi-step work
 - [DONE] The Read, Edit, and Write tools — when each is preferred
-- [TODO] The Bash tool — running commands and the gotchas (timeouts, background jobs)
+- [DONE] The Bash tool — running commands and the gotchas (timeouts, background jobs)
 - [TODO] Parallel tool calls — speeding things up by batching independent calls
 - [TODO] Image input — pasting screenshots and asking Claude to read them
 - [TODO] Web search and WebFetch — getting current info into a session
