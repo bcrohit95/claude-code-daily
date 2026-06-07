@@ -23,7 +23,7 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Tasks — the built-in todo list for tracking multi-step work
 - [DONE] The Read, Edit, and Write tools — when each is preferred
 - [DONE] The Bash tool — running commands and the gotchas (timeouts, background jobs)
-- [TODO] Parallel tool calls — speeding things up by batching independent calls
+- [DONE] Parallel tool calls — speeding things up by batching independent calls
 - [TODO] Image input — pasting screenshots and asking Claude to read them
 - [TODO] Web search and WebFetch — getting current info into a session
 - [TODO] Headless mode — running Claude Code non-interactively in scripts/CI
