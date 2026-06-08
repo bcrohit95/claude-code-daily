@@ -24,7 +24,7 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] The Read, Edit, and Write tools — when each is preferred
 - [DONE] The Bash tool — running commands and the gotchas (timeouts, background jobs)
 - [DONE] Parallel tool calls — speeding things up by batching independent calls
-- [TODO] Image input — pasting screenshots and asking Claude to read them
+- [DONE] Image input — pasting screenshots and asking Claude to read them
 - [TODO] Web search and WebFetch — getting current info into a session
 - [TODO] Headless mode — running Claude Code non-interactively in scripts/CI
 - [TODO] GitHub Actions integration — the official `claude-code-action`

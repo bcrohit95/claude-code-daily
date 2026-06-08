@@ -21,6 +21,7 @@ A self-running learning agent that teaches me one Claude Code skill every day at
 ## Lessons
 
 <!-- LESSON_INDEX_START -->
+- [2026-06-08 — Image Input](lessons/2026-06-08-image-input.md)
 - [2026-06-07 — Parallel Tool Calls](lessons/2026-06-07-parallel-tool-calls.md)
 - [2026-06-06 — The Bash Tool](lessons/2026-06-06-bash-tool.md)
 - [2026-06-05 — The Read, Edit, and Write Tools](lessons/2026-06-05-read-edit-write-tools.md)
