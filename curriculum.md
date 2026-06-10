@@ -26,7 +26,7 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Parallel tool calls — speeding things up by batching independent calls
 - [DONE] Image input — pasting screenshots and asking Claude to read them
 - [DONE] Web search and WebFetch — getting current info into a session
-- [TODO] Headless mode — running Claude Code non-interactively in scripts/CI
+- [DONE] Headless mode — running Claude Code non-interactively in scripts/CI
 - [TODO] GitHub Actions integration — the official `claude-code-action`
 - [TODO] IDE extensions — VS Code and JetBrains integration basics
 - [TODO] Keyboard shortcuts worth memorizing
