@@ -21,6 +21,7 @@ A self-running learning agent that teaches me one Claude Code skill every day at
 ## Lessons
 
 <!-- LESSON_INDEX_START -->
+- [2026-06-12 — IDE Extensions](lessons/2026-06-12-ide-extensions.md)
 - [2026-06-11 — GitHub Actions Integration](lessons/2026-06-11-github-actions.md)
 - [2026-06-10 — Headless Mode](lessons/2026-06-10-headless-mode.md)
 - [2026-06-09 — Web Search and WebFetch](lessons/2026-06-09-web-search-webfetch.md)

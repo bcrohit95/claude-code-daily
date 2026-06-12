@@ -28,7 +28,7 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Web search and WebFetch — getting current info into a session
 - [DONE] Headless mode — running Claude Code non-interactively in scripts/CI
 - [DONE] GitHub Actions integration — the official `claude-code-action`
-- [TODO] IDE extensions — VS Code and JetBrains integration basics
+- [DONE] IDE extensions — VS Code and JetBrains integration basics
 - [TODO] Keyboard shortcuts worth memorizing
 - [TODO] Status line — customizing what shows above the prompt
 - [TODO] Output styles — switching between concise and detailed responses
