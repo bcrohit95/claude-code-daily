@@ -22,6 +22,7 @@ A self-running learning agent that teaches me one Claude Code skill every day at
 ## Lessons
 
 <!-- LESSON_INDEX_START -->
+- [2026-06-14 — Status Line](lessons/2026-06-14-status-line.md)
 - [2026-06-13 — Keyboard Shortcuts Worth Memorizing](lessons/2026-06-13-keyboard-shortcuts.md)
 - [2026-06-12 — IDE Extensions](lessons/2026-06-12-ide-extensions.md)
 - [2026-06-11 — GitHub Actions Integration](lessons/2026-06-11-github-actions.md)

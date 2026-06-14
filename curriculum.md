@@ -30,7 +30,7 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] GitHub Actions integration — the official `claude-code-action`
 - [DONE] IDE extensions — VS Code and JetBrains integration basics
 - [DONE] Keyboard shortcuts worth memorizing
-- [TODO] Status line — customizing what shows above the prompt
+- [DONE] Status line — customizing what shows above the prompt
 - [TODO] Output styles — switching between concise and detailed responses
 - [TODO] /init — generating a CLAUDE.md for an existing project
 - [TODO] /review — using Claude to review a pull request
