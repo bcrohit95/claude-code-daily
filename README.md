@@ -22,6 +22,7 @@ A self-running learning agent that teaches me one Claude Code skill every day at
 ## Lessons
 
 <!-- LESSON_INDEX_START -->
+- [2026-06-17 — /review — Using Claude to Review a Pull Request](lessons/2026-06-17-review-command.md)
 - [2026-06-16 — /init — Generating a CLAUDE.md for an Existing Project](lessons/2026-06-16-init-command.md)
 - [2026-06-15 — Output Styles](lessons/2026-06-15-output-styles.md)
 - [2026-06-14 — Status Line](lessons/2026-06-14-status-line.md)
