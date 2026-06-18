@@ -34,7 +34,7 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Output styles — switching between concise and detailed responses
 - [DONE] /init — generating a CLAUDE.md for an existing project
 - [DONE] /review — using Claude to review a pull request
-- [TODO] Model selection — when to use Opus vs Sonnet vs Haiku
+- [DONE] Model selection — when to use Opus vs Sonnet vs Haiku
 - [TODO] Prompt caching — what it is and how it saves money
 - [TODO] Cost and rate limits — practical tips to stay under
 - [TODO] Worktrees — running Claude on an isolated copy of the repo
