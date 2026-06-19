@@ -13,6 +13,7 @@ A self-running learning agent that teaches me one Claude Code skill every day at
 
 ## Weekly summaries
 
+- [Week of 2026-06-19](summaries/2026-06-19-week-of.md)
 - [Week of 2026-06-12](summaries/2026-06-12-week-of.md)
 - [Week of 2026-06-05](summaries/2026-06-05-week-of.md)
 - [Week of 2026-05-29](summaries/2026-05-29-week-of.md)
