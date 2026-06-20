@@ -23,6 +23,7 @@ A self-running learning agent that teaches me one Claude Code skill every day at
 ## Lessons
 
 <!-- LESSON_INDEX_START -->
+- [2026-06-20 — Cost and Rate Limits — Practical Tips to Stay Under](lessons/2026-06-20-cost-and-rate-limits.md)
 - [2026-06-19 — Prompt Caching — What It Is and How It Saves Money](lessons/2026-06-19-prompt-caching.md)
 - [2026-06-18 — Model Selection — When to Use Opus vs Sonnet vs Haiku](lessons/2026-06-18-model-selection.md)
 - [2026-06-17 — /review — Using Claude to Review a Pull Request](lessons/2026-06-17-review-command.md)
