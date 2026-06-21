@@ -37,7 +37,7 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Model selection — when to use Opus vs Sonnet vs Haiku
 - [DONE] Prompt caching — what it is and how it saves money
 - [DONE] Cost and rate limits — practical tips to stay under
-- [TODO] Worktrees — running Claude on an isolated copy of the repo
+- [DONE] Worktrees — running Claude on an isolated copy of the repo
 - [TODO] Git workflows with Claude — branches, commits, PRs without leaving the CLI
 - [TODO] Debugging Claude's mistakes — re-prompting strategies
 - [TODO] The Claude Agent SDK — building your own agent on top of Claude
