@@ -39,5 +39,5 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Cost and rate limits — practical tips to stay under
 - [DONE] Worktrees — running Claude on an isolated copy of the repo
 - [DONE] Git workflows with Claude — branches, commits, PRs without leaving the CLI
-- [TODO] Debugging Claude's mistakes — re-prompting strategies
+- [DONE] Debugging Claude's mistakes — re-prompting strategies
 - [TODO] The Claude Agent SDK — building your own agent on top of Claude
