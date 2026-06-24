@@ -40,4 +40,4 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Worktrees — running Claude on an isolated copy of the repo
 - [DONE] Git workflows with Claude — branches, commits, PRs without leaving the CLI
 - [DONE] Debugging Claude's mistakes — re-prompting strategies
-- [TODO] The Claude Agent SDK — building your own agent on top of Claude
+- [DONE] The Claude Agent SDK — building your own agent on top of Claude
