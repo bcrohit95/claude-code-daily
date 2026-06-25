@@ -41,3 +41,4 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Git workflows with Claude — branches, commits, PRs without leaving the CLI
 - [DONE] Debugging Claude's mistakes — re-prompting strategies
 - [DONE] The Claude Agent SDK — building your own agent on top of Claude
+- [DONE] Putting it all together — combining agents, MCP, hooks, and custom skills for a voice AI workflow
