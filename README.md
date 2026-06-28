@@ -24,6 +24,7 @@ A self-running learning agent that teaches me one Claude Code skill every day at
 ## Lessons
 
 <!-- LESSON_INDEX_START -->
+- [2026-06-28 — Course Complete — Your Claude Code Reference Card and What to Build Next](lessons/2026-06-28-course-complete.md)
 - [2026-06-25 — Putting It All Together](lessons/2026-06-25-putting-it-all-together.md)
 - [2026-06-24 — The Claude Agent SDK](lessons/2026-06-24-claude-agent-sdk.md)
 - [2026-06-23 — Debugging Claude's Mistakes — Re-Prompting Strategies](lessons/2026-06-23-debugging-claudes-mistakes.md)

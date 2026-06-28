@@ -42,3 +42,4 @@ Each line is one daily lesson. The agent picks the topmost `[TODO]` topic and ma
 - [DONE] Debugging Claude's mistakes — re-prompting strategies
 - [DONE] The Claude Agent SDK — building your own agent on top of Claude
 - [DONE] Putting it all together — combining agents, MCP, hooks, and custom skills for a voice AI workflow
+- [DONE] Course complete — your Claude Code reference card and what to build next
